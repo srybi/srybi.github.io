@@ -4,9 +4,3 @@
 
 layout: default
 ---
-
-# Hello World!
-
-<a href="https://twitter.com/dieserstefan"><img src="/images/twitter.png" alt="@DieserStefan" width="25" height="25"/></a>
-
-
