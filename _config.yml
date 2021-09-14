@@ -47,7 +47,7 @@ sass:
   style: compressed
 
 # Permalink
-permalink: "blog/:title"
+permalink: "portfolio/:title"
 
 # Compress
 compress_html:
