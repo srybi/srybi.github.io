@@ -14,7 +14,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #social media
 twitter_username: DieserStefan  
 github_username:  srybi
-linkedin_username: Stefan Rybinski
+linkedin_username: stefan-rybinski-982026215
 
 #images
 heroimage: https://free4kwallpapers.com/uploads/wallpaper/galaxy-background-1280x720-wallpaper.jpg
@@ -82,3 +82,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+formspree_form_path: "https://formspree.io/f/xvodddba"

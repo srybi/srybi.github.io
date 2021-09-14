@@ -85,26 +85,50 @@ a.navbar-item.is-active {
 }
 
 #contact {
-    #contact-button {
-        margin: 0.5rem auto;
-        display: flex;
-        justify-content: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    .section-heading {
+      color: black;
     }
-
-    svg {
-        transition: all 0.15s ease-in-out;
-        margin: auto 0.75vmax;
-
-        &:hover {
-            transform: scale(1.10);
-            filter: opacity(0.75);
-        }
+    .form-group {
+      margin-bottom: 25px;
+      input,
+      textarea {
+        padding: 20px;
+      }
+      input.form-control {
+        height: auto;
+      }
+      textarea.form-control {
+        height: 248px;
+      }
     }
-
-    hr {
-        background-color: black;
+    .form-control:focus {
+      border-color: black;
+      box-shadow: none;
     }
-}
+    ::-webkit-input-placeholder {
+      font-weight: 700;
+      color: rgba(156, 163, 175, var(--tw-bg-opacity));
+      //@include heading-font;
+    }
+    :-moz-placeholder {
+      font-weight: 700;
+      color: rgba(156, 163, 175, var(--tw-bg-opacity));
+      //@include heading-font;
+    }
+    ::-moz-placeholder {
+      font-weight: 700;
+      color: rgba(156, 163, 175, var(--tw-bg-opacity));
+      //@include heading-font;
+    }
+    :-ms-input-placeholder {
+      font-weight: 700;
+      color: rgba(156, 163, 175, var(--tw-bg-opacity));
+      //@include heading-font;
+    }
+  }
 
 #blog {
     .hero-body {
