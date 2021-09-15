@@ -84,27 +84,60 @@ a.navbar-item.is-active {
     }
 }
 
-#contact {
-    #contact-button {
-        margin: 0.5rem auto;
-        display: flex;
-        justify-content: center;
+// Styling for the contact section
+section#contact {
+
+    background-color: #ffffff ;
+    background-repeat: no-repeat;
+    background-position: center;
+    .section-heading {
+        margin-bottom: 140px;
+      }
+
+    .form-group {
+      margin-bottom: 25px;
+      input,
+      textarea {
+        padding: 20px;
+      }
+      input.form-control {
+        height: auto;
+        width: 75%;
+      }
+      textarea.form-control {
+        height: 248px;
+        width: 75%;
+      }
     }
-
-    svg {
-        transition: all 0.15s ease-in-out;
-        margin: auto 0.75vmax;
-
-        &:hover {
-            transform: scale(1.10);
-            filter: opacity(0.75);
+    .form-group warining {
+        .help-block text-danger{
+            color: red;
         }
     }
-
-    hr {
+    .form-control:focus {
+      border-color: #0a0a0a;
+      box-shadow: none;
+    }
+    ::-webkit-input-placeholder {
+      font-weight: 700;
+      color: #ced4da ;
+    }
+    :-moz-placeholder {
+      font-weight: 700;
+      color: #ced4da ;
+    }
+    ::-moz-placeholder {
+      font-weight: 700;
+      color: #ced4da ;
+    }
+    :-ms-input-placeholder {
+      font-weight: 700;
+      color: #ced4da ;
+    }   
+     hr {
         background-color: black;
     }
-}
+  }
 
 #blog {
     .hero-body {

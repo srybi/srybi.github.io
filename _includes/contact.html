@@ -1,6 +1,13 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h3 class="section-heading is-size-5 is-uppercase has-text-weight-semibold has-text-black">
+                    Contact Me</h3>
+                </div>
+              </div>
+              <div class="row">
             <!-- CONTACT FORM -->
             <form id="contactForm"
             action="https://formspree.io/f/xvodddba"
@@ -23,10 +30,7 @@
                 </div>
                 <div class="col-md-6">
                 <div class="form-group">
-                    <textarea name="message" class="form-control" id="message"
-                    placeholder="Message*"
-                    required="required" data-validation-required-message="Please enter a message.">
-                    </textarea>
+                    <textarea name="message" class="form-control" id="message" placeholder="Message*" required="required" data-validation-required-message="Please enter a message." style="resize: none"></textarea>
                     <p class="help-block text-danger"></p>
                 </div>
                 </div>
@@ -35,7 +39,7 @@
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
+                <button id="sendMessageButton" class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined"
                     type="submit">Send Message</button>
                 </div>
                 <input type="text" name="_gotcha" style="display:none">
