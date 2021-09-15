@@ -91,14 +91,15 @@ section#contact {
     background-repeat: no-repeat;
     background-position: center;
     .section-heading {
-        margin-bottom: 140px;
+        position: relative;
+        margin-bottom: 5px;
       }
 
     .form-group {
       margin-bottom: 25px;
       input,
       textarea {
-        padding: 20px;
+        padding: 20px;  
       }
       input.form-control {
         height: auto;
@@ -108,12 +109,19 @@ section#contact {
         height: 248px;
         width: 75%;
       }
+
     }
-    .form-group warining {
-        .help-block text-danger{
-            color: red;
+
+    .error {
+        .help-block{
+            margin-top: 5px;
         }
     }
+
+    #success {
+        margin-bottom: 5px;
+    }
+
     .form-control:focus {
       border-color: #0a0a0a;
       box-shadow: none;
