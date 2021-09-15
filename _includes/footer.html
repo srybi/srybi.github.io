@@ -27,7 +27,7 @@
 
             <!--Link Section-->
             <div class="column has-text-white">
-                <h3>More Links</h3>
+                <h3>Templates used</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
                 <li>
@@ -36,7 +36,10 @@
                 {% endunless %}
                 {% endfor %}
                 <li>
-                    <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Subscribe via RSS</a>
+                    <a target="_blank" href="https://github.com/thedevslot/WhatATheme">WhatATheme</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://github.com/raviriley/agency-jekyll-theme">Agency</a>
                 </li>
             </div>
 
@@ -52,6 +55,6 @@
         </div>
     </div>
     <div class="has-background-black has-text-centered has-text-white" id="credits">
-        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | <a href="https://github.com/thedevslot/WhatATheme" target="_blank" rel="noopener noreferrer">WhatATheme</a> - A Theme made with <i class="fas fa-heart has-text-danger"></i> by <a href="https://www.twitter.com/thedevslot" target="_blank" rel="noopener noreferrer">TheDevsLot</a> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+        <i class="far fa-copyright"></i> {{ "now" | date: "%Y" }} | Personal Website made with <i class="fas fa-heart has-text-danger"></i> Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://pages.github.com/" target="_blank">GithubPages</a>
     </div>
 </footer>
