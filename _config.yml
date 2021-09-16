@@ -24,14 +24,16 @@ favicon-url: /assets/images/favicon-16x16.png
 # author setting
 author-name: Stefan Rybinski
 # URL for the Image of the Author
-author-image: assets/images/profiel.jpg
+author-image: assets/images/me.jpeg
 # 60 Words About the Author
 author-about: >- 
-  Hey! My name is Stefan and I study Business Information Systems at the University of Applied Sciences in Rosenheim. 
-  Since my beginnings in 2019, I've been supported by HEIDENHAIN, a German manufactur for precision measurement.
+  My name is Stefan Rybinski and I study Business Information Systems at the Rosenheim University of Applied Sciences. 
+  Since my beginnings in 2019, I've been supported by HEIDENHAIN, a German manufacturer for precision measurement.
+  For more information about my experience, read my first portfolio post. In 1999 my parents decided to move from Russia
+  to a small Bavarian village near Munich. I grew up biligual: talking Russian at home and learning German in school.
+  My hobbies are playing football, meeting friends and listening to Hip hop music.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: 
-
 
 # Build settings
 markdown: GFM
