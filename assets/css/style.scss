@@ -78,6 +78,10 @@ a.navbar-item.is-active {
         }
     }
 
+    .in_text_link{
+        margin: 0px;
+    }
+
     a {
         min-width: 25vmax;
         margin: 0.5rem;
@@ -104,10 +108,12 @@ section#contact {
       input.form-control {
         height: auto;
         width: 75%;
+        font-family: 'Poppins', sans-serif;
       }
       textarea.form-control {
         height: 248px;
         width: 75%;
+        font-family: 'Poppins', sans-serif;
       }
 
     }
@@ -147,7 +153,7 @@ section#contact {
     }
   }
 
-#blog {
+#portfolio {
     .hero-body {
         padding: 3rem 0.25rem 1rem 0.25rem;
     }
